@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+    <project name="Teste" default="info">
+    
+       
+        <property name="sitename" value="www.moxoa.org"/>
+        <target name="info">
+            <echo> This is a Test... - Welcome to Apache ANT... </echo>
+            <echo> Apache ANT version is ${ant.version}</echo>
+            <echo> For more info visit my website ${sitename}</echo>
+        </target>
+        
+    </project>
+    

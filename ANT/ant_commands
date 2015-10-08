@@ -1,0 +1,5 @@
+//CMD COMMANDS
+
+//Gets and Executes build.xml because info is the default target in the build file.
+> ant info
+> ant

@@ -1,0 +1,5 @@
+#Compiling in JAVA manually
+
+javac file1.java file2.java
+
+java file

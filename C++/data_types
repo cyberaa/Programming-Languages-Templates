@@ -1,0 +1,20 @@
+Data Types
+
+/type                   /Description                / Bit Width /  Range   
+bool                     #boolean
+char                    #Character                   /1 byte  / -127 to 127 or 0 to 255
+    unsigned char                                             / 0 to 255
+    signed char
+int                     #Integer                     /4 bytes
+    short int
+        unsigned short int
+        signed short int #same as short int
+    long int
+        unsigned long int
+        signed long int
+        
+long    # -2,417,483,648 to -2,417,483,647          /4 bytes
+float   #Floating point ( 7 digits)                 /4 bytes
+double  #Double Floating point (15 digits)          /8 bytes
+
+void    # no value

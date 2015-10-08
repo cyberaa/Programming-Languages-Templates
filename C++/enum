@@ -1,0 +1,14 @@
+#include <iostream>
+
+enum color{red,green,blue};    
+enum numcolor{ reds = 1, greens = 2, blues = 3};
+
+int main()
+{
+    color cor = green;
+    cout << red;
+    cout << reds;
+    
+
+    return 0;
+}

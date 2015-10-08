@@ -1,0 +1,34 @@
+ANT TEMPLATE
+
+XML ELEMENT (3 Attributes)
+
+    1 - Name of the project (Optional)
+    2 - default target, that can be one ore more targets.(Mandatory)
+    3 - basedir, that represents the root folder of the project (Optional)
+    
+Target ELEMENT (5 Attributes)
+
+    1 - Name of the target (Required)
+    2 - Depends, represents the list of dependecies of the target, separated by a comma (Optional)
+    3 - Description, short description of the target (Optional)
+    4 - IF, allows execution of a target based on his conditional attribute (Optional)
+    5 - UNLESS, adds target to the dependency list of an Extension Point which is similar to a target but does not have any tasks (Optional)
+    
+
+Property ELEMENTS
+
+ - ant.file  // full location of the build file
+ - ant.version // version of apache ant installation
+ - basedir // basedir of the build
+ - ant.java.version // version of JDK used by ANT
+ - ant.project.name // name of the project specified in the attribute of project element
+ - ant.project.default-target // default target of the current project
+ - ant.project.invoked-targets // list separated by commas of the targets that were invoked in the current project
+ - ant.core.lib  // the full location of the ANT jar file
+ - ant.home // home of the ANT installation
+ - ant.library.dir  // home directory for ANT library files
+ - file.separator // this and other system properties are available
+ 
+ 
+ - user defined properties
+        <property name="website" value="www.moxoa.org"/>
